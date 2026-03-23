@@ -1,19 +1,42 @@
 name: anjiz
-description: "A new Flutter project."
+description: أنجز — AI-powered project management
 publish_to: 'none'
-version: 0.1.0+1
+version: 1.0.0+1
 
 environment:
-  sdk: ^3.11.1
+  sdk: ^3.5.0
 
 dependencies:
   flutter:
     sdk: flutter
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  hive_flutter: ^1.1.0
+  go_router: ^14.2.0
+  dio: ^5.4.3
+  lottie: ^3.1.2
+  fl_chart: ^0.68.0
+  percent_indicator: ^4.2.3
+  google_fonts: ^6.2.1
+  shared_preferences: ^2.3.2
+  flutter_local_notifications: ^17.2.2
+  uuid: ^4.5.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.9
+  flutter_launcher_icons: ^0.14.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/images/logo_icon.png
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/lottie/
